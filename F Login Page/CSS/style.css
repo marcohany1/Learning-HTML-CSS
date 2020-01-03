@@ -1,0 +1,406 @@
+
+
+/*Framework*/
+.container
+{
+	width: 980px;
+	margin: auto;
+}
+hr
+{
+	color: #DDDFE2;
+	opacity: .2
+}
+.my-ul
+{
+	list-style-type: none;
+	padding-left: 0;
+}
+.my-ul li
+{
+	display: inline-block;
+}
+.my-anchor
+{
+	color: #3858A3;
+	text-decoration: none;
+}
+.my-anchor:hover
+{
+	text-decoration: underline;
+}
+/*Framework*/
+
+body
+{
+	font-family: Helvetica, Arial, sans-serif
+}
+/*Start Of Header*/
+.header
+{
+	background-color: #3B5998;
+	background-image: linear-gradient(#4e69a2, #3b5998 50%);
+	color: #FFFFFF;
+	overflow: hidden;
+}
+.header h1 , .header .login 
+{
+	float: left;
+
+}
+.header h1
+{
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+.header h1 a
+{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 40px;
+}
+.header .login
+{
+	overflow: hidden;
+	margin-left: 418px;
+	font-size: 12px;
+	margin-top: 14px;
+}
+.header .login input
+{
+	width: 150px;
+	height: 20px;
+	border: 1px solid #1D2A5B;
+	margin-right: 15px;
+	
+}
+.header .login label
+{
+	display: block;
+	margin-bottom: 5px;
+}
+
+.header .login .log
+{
+	float: left;
+}
+
+.header .login .log button
+{
+	width: 50px;
+	background-color: #4267B2;
+	color: #FFFFFF;
+	cursor: pointer;
+	text-transform: capitalize;
+	height: 25px;	
+	margin-left: -5px;
+	border: 1px solid #1D2A5B;
+}
+
+.header .login .log span a 
+{	
+	display: block;
+	margin-top: 5px;
+	color: #9CB4D8;
+}
+
+
+/*End Of Header*/
+
+
+/*Start Of fa-body*/
+.fa-body 
+{
+	background-color: #E9EBEE;
+	overflow: hidden;
+	padding-bottom: 35px;
+}
+
+.fa-body .recent
+{
+	width: 60%;
+	float: left;
+	padding-top: 7px;
+}
+.fa-body .recent h1
+{	
+	margin-bottom: 7px;
+	font-size: 36px;
+	color: #333;
+}
+.fa-body .recent span
+{
+	font-size: 19px;
+	display: block;
+}
+.fa-body .recent .accounts
+{
+	overflow: hidden;
+	margin-top: 20px;
+	
+}
+.fa-body .recent .accounts > div 
+{
+	float: left;
+	height: 206px;
+	width: 160px;
+	margin-right: 17px;
+	line-height: 2.1;
+
+	
+}
+.fa-body .recent .accounts >div a
+{
+	text-decoration: none;
+}
+.fa-body .recent .accounts > div img
+{
+	display: block;
+	width: 100%;
+	height: 160px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+
+}
+
+.fa-body .recent .accounts > div div
+{
+	height: 46px;
+	background-color: #FFFFFF;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px; 
+	color: #4B4F56;
+	font-size: 20px;
+	text-align: center;
+
+}
+
+.fa-body .recent .accounts .add
+{
+	background-color:#F5F6F7;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	cursor: pointer;
+}
+.fa-body .recent .accounts .add div
+{
+	color: #385898;
+	margin-top: 52px;
+
+}
+
+.fa-body .recent .accounts .add i
+{
+	display: block;
+	color: #4267B2;
+	text-align: center;
+	margin-top: 60px;
+
+}
+
+.fa-body .sign-up 
+{
+	float: left;
+	width: 40%;
+	margin-left: -7px;
+}
+
+.fa-body .sign-up h1
+{
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+.fa-body .sign-up span
+{
+	display: block;
+	font-size: 19px;
+	margin-bottom: 10px;
+
+}
+.fa-body .sign-up form input[type="text"]::placeholder 
+{
+	color: #999999;
+}
+.fa-body .sign-up form input[type="text"]
+{
+	display: inline-block;
+	height: 39px;
+	border-radius: 5px;
+	font-size: 18px;
+	border: 1px solid #bdc7d8;
+	margin-bottom: 12px;
+	width: 100%;
+	text-indent: 12px; 
+}
+.fa-body .sign-up form input[type="text"]:first-of-type
+{
+	margin-right: 6px;
+}
+.fa-body .sign-up form input[type="text"]:first-of-type,.fa-body .sign-up input[type="text"]:nth-of-type(2)
+{
+	width: 48.6%;
+	margin-top: 13px;
+	box-sizing: border-box;
+
+}
+.fa-body .sign-up form label
+{
+	display: block;
+	color: #90949C;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 10px;
+
+}
+.fa-body .sign-up form select
+{
+	height: 30px;
+	font-size: 13px;
+	margin-top: 6px;
+	border: 1px solid #BDC7D8;
+	margin-right: -4px;
+}
+.fa-body .sign-up form select:first-of-type,.fa-body .sign-up form select:nth-of-type(3)
+{
+	width: 60px;
+}
+
+.fa-body .sign-up form a i
+{
+	display: inline-block;
+	margin-left: 5px;
+	color:#606770;
+}
+
+.fa-body .sign-up form  .gender
+{
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	color: #1D2129;
+	font-weight: normal;
+	font-size: 18px;
+}
+.fa-body .sign-up form  input[type="radio"]
+{
+	display: inline-block;
+	height: 19px;
+	margin-left:10px;
+	margin-top: 11px;
+}
+.fa-body .sign-up form p
+{
+	font-size: 11px;
+	width: 316px;
+	line-height: 1.4;
+	color: #777;
+}
+
+.fa-body .sign-up form button 
+{
+	background: linear-gradient(#70AE5B,#578843); 
+	width: 194px;
+	color: #FFFFFF;
+	font-size: 19px;
+	border-radius: 5px;
+	border: 1px solid #3b6e22;
+	padding: 7px 20px;
+	cursor: pointer;
+	box-shadow: inset 0 1px 1px #A4E388;
+	text-shadow: 0 1px 2px rgba(0,0,0,.5);
+	margin-bottom: 15px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+.fa-body .sign-up form button:hover
+{
+	background: linear-gradient(#79BC64, #578843);
+}
+.fa-body .sign-up form p:last-of-type
+{
+	color: #666;
+	font-size: 13px;
+	font-weight: bold;
+
+}
+/*End Of fa-body*/
+
+/*Start Of Languages*/
+.language 
+{
+	margin-top: 38px;
+}
+
+.language ul li a
+{
+
+	font-size: 12px;
+	padding-right: 5px;
+}
+.language ul li:first-of-type 
+{
+	font-size: 12px;
+	color: #737373;
+	padding-right: 5px;
+}
+.language ul li:last-of-type a
+{
+	color: #676E7D;
+	background-color: #F5F6F7;
+	padding: 3px 10px;
+	border: 1px solid #CCD0D5;
+	font-size: 12px;
+}
+.language ul li:last-of-type a:hover
+{
+	background-color: #EBEDF0;
+}
+.language hr
+{
+	margin-top: -5px;
+}
+/*End Of Languages*/
+
+
+/*Start Of Footer*/
+
+
+.footer ul 
+{
+	
+	text-transform: capitalize;
+
+
+}
+.footer ul li a
+{
+	padding-right: 16px;
+	font-size: 12px
+}
+.footer ul:first-of-type
+{
+	margin-top: -2px;
+	margin-bottom: 0;
+}
+.footer ul:last-of-type
+{
+	margin-top: 2px;
+
+}
+.footer ul:last-of-type li a
+{
+	padding-right: 16px;
+} 
+
+.footer span
+{
+	display: block;
+	font-size: 11px;
+	color: #737373;
+	margin-bottom: 20px;
+	margin-top: 22px;
+}
+
+
+/*End Of Footer*/
